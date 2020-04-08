@@ -1,4 +1,36 @@
-.mySlides {
-    display:none;
-    width: 50%;
+html {
+    background: url(./images/basil-chopping-board-fresh-green-616484.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
+
+h1, h2, h4, p, li, figure, figcaption {
+    background-color: lightblue;
+    text-align: center;
+}
+
+  
+h1 {
+    font-family: 'Gotu';
+    border: thick;
+}
+
+p {
+    font-family: 'Roboto Slab';
+}
+
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
+
+
