@@ -3,31 +3,116 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
-}
-
-h1, h2, h4, p, li, figure, figcaption {
-    background-color: lightblue;
+    background-size: cover;
     text-align: center;
+    /* padding: 0; */
 }
 
+
+
+h2 {
+    background-color: lightblue;
+    font-size: 150%;
+    border: solid green 5px;
+    display: inline;
+    border-style: inset;
+}
+h4 {
+    background-color: lightblue;
+    font-family: 'Gotu';
+    border: solid green 5px;
+    display: inline;
+    border-style: inset;
+}
   
 h1 {
+    background-color: lightblue;
+    font-size: 150%;
     font-family: 'Gotu';
-    border: thick;
+    border: solid green 10px;
+    border-radius: 5px;
+    border-style: inset;
+    display: inline-block;
 }
 
 p {
     font-family: 'Roboto Slab';
+    /* text-align: justify; */
+    margin-left: 18%;
+    margin-right: 18%;
 }
 
 
 figure {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+    margin-left: 10px;
+    margin-right: 10px;
+    /* width: 50%; */
+}
+
+#title {
+    font-size: 300%;
+    text-align: center;
+}
+
+ul {
+    /* text-align: justify; */
+    text-align: center;
+}
+
+#dad {
+    border-radius: 50%;
+}
+
+img {
+    margin-top: 10px;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+li {
+    font-family: 'Roboto Slab';
+    display: inline;
+}
+
+figcaption {
+    color: whitesmoke;
+    font-family: 'Roboto Slab';
+    display: inline-block;
+    background-color: black;
+}
+main {
+    background-image: url(./images/abstract-triangle-with-gray-background-vector-3179518.jpg);
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+#mainHeader {
+    border: solid green 10px;
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+#leftButton {
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    width: 80px;
+}
+
+#rightButton {
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    background: black;
+    width: 80px;
+}
+
 
 
 
