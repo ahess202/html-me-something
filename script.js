@@ -5,7 +5,7 @@ window.addEventListener('load', function(){
     let leftButton = document.getElementById('leftButton');
     let img1 = "./images/thanksgivingTurkey.JPG";
     let img1Cap = 'Preparing one of the Thanksgiving turkeys for the oven.';
-    let img2 = "./images/thanksgivingTurkeyDone.JPG";
+    let img2 = "./images/thanksgivingTurkeyDone!.JPG";
     let img2Cap = 'Both turkeys cooked and carved!';
     let img3 = "./images/kitchenPrep1.jpg";
     let img3Cap ='Another picture of the counter during prep.';
