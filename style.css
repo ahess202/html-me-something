@@ -16,6 +16,7 @@ h2 {
     border: solid green 5px;
     display: inline;
     border-style: inset;
+    padding: 5px;
 }
 h4 {
     background-color: lightblue;
@@ -23,6 +24,7 @@ h4 {
     border: solid green 5px;
     display: inline;
     border-style: inset;
+    padding: 5px;
 }
   
 h1 {
@@ -33,6 +35,7 @@ h1 {
     border-radius: 5px;
     border-style: inset;
     display: inline-block;
+    padding: 5px;
 }
 
 p {
@@ -40,6 +43,7 @@ p {
     /* text-align: justify; */
     margin-left: 18%;
     margin-right: 18%;
+    font-weight: bold;
 }
 
 
@@ -55,10 +59,10 @@ figure {
     text-align: center;
 }
 
-ul {
-    /* text-align: justify; */
-    text-align: center;
-}
+/* ul {
+    text-align: justify;
+    text-align: center; */
+/* } */
 
 #dad {
     border-radius: 50%;
@@ -74,14 +78,16 @@ img {
 
 li {
     font-family: 'Roboto Slab';
-    display: inline;
+    font-size: small;
+    font-weight: bold;
+    text-align: justify;
 }
 
 figcaption {
     color: whitesmoke;
     font-family: 'Roboto Slab';
-    display: inline-block;
     background-color: black;
+    display: inline;
 }
 main {
     background-image: url(./images/abstract-triangle-with-gray-background-vector-3179518.jpg);
@@ -89,7 +95,10 @@ main {
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 10%;
+    padding-bottom: 50px;
 }
+
+
 
 #mainHeader {
     border: solid green 10px;

@@ -13,6 +13,7 @@ window.addEventListener('load', function(){
     let img4Cap = 'Surf and Turf I made for Valentines Day 2020';
     let currentPic = document.getElementById('currentPic');
     let currentCap = document.getElementById('currentCap');
+    let currentNum = document.getElementById('currentNum');
     let i = 0;
     let slidePics = [
         img1,
@@ -26,24 +27,25 @@ window.addEventListener('load', function(){
         img3Cap,
         img4Cap
     ]
+    currentNum.innerHTML = `${1}/${slidePics.length}`
     rightButton.addEventListener('click', function(e){
-        i = i++
         if (i === slidePics.length) {
             i = 0
         }
         currentPic.src = slidePics[i];
         currentCap.innerHTML = slideCaps[i];
         i++;
+        currentNum.innerHTML = `${i}/${slidePics.length}`
     });
 
     leftButton.addEventListener('click', function(e){
-        i--
-        if (i === slidePics.length) {
-            i = 0
+        if (i < 0) {
+            i = slidePics.length - 1
         }
         currentPic.src = slidePics[i];
         currentCap.innerHTML = slideCaps[i];
         i--;
+        currentNum.innerHTML = `${i}/${slidePics.length}`
     });
     
 });
