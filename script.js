@@ -36,16 +36,17 @@ window.addEventListener('load', function(){
         currentCap.innerHTML = slideCaps[i];
         i++;
         currentNum.innerHTML = `${i}/${slidePics.length}`
+        console.log(i);
     });
 
     leftButton.addEventListener('click', function(e){
+        i--;
         if (i < 0) {
-            i = slidePics.length - 1
+            i = slidePics.length -1;
         }
         currentPic.src = slidePics[i];
         currentCap.innerHTML = slideCaps[i];
-        i--;
-        currentNum.innerHTML = `${i}/${slidePics.length}`
+        currentNum.innerHTML = `${i+1}/${slidePics.length}`
+        console.log(i);
     });
-    
 });

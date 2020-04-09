@@ -8,6 +8,26 @@ html {
     /* padding: 0; */
 }
 
+#navbar {
+    border: solid green 5px;
+    list-style-type: none;
+    margin-top: 35;
+    padding: 10px;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+.navList {
+    border: solid black 3px;
+    padding: 5px;
+    border-bottom: solid black 0px;
+    
+}
+#navLast {
+    border-bottom: solid black 3px;
+}
+
+
 
 
 h2 {
@@ -91,12 +111,27 @@ figcaption {
 }
 main {
     background-image: url(./images/abstract-triangle-with-gray-background-vector-3179518.jpg);
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-right: 20%;
     margin-left: 20%;
     margin-bottom: 10%;
     padding-bottom: 50px;
 }
+#backToTop {
+    font-weight: bold;
+    background-color: lightblue;
+    border: solid black 3px;
+    padding: 5px;
+}
+
+a { color:black } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:blue }
 
 
 
